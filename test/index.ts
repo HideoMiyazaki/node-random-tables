@@ -1,5 +1,4 @@
-import { RandomTable } from "../lib/index";
-import { generateTableByPercent, randomMultiple } from "../src/index";
+import { RandomTable, generateTableByPercent, randomMultiple } from "../lib/index";
 
 type CharRank = 
 	'Star3Non' |

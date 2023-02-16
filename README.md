@@ -4,8 +4,7 @@
 ## How To use?
 
 ```typescript
-import { RandomTable } from "../lib/index";
-import { generateTableByPercent, randomMultiple } from "../src/index";
+import { RandomTable, generateTableByPercent, randomMultiple } from "node-random-tables";
 
 type CharRank = 
 	'Star3Non' |
