@@ -1,6 +1,8 @@
 # node-random-tables
 > node random tables project (for gacha server project)
 
+[![NpmBadge](https://badgen.net/npm/v/node-random-tables)](https://www.npmjs.com/package/node-random-tables)
+
 ## How To use?
 
 ```typescript
