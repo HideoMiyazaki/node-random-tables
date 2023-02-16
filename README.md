@@ -39,3 +39,23 @@ for(const item of randomize) {
 console.log(`Simulated Gacha Times : ${TEST_TIMES}`)
 console.log(res);
 ```
+
+If you want, use other class or types instead of ```CharRank```. (example, below source)
+
+```typescript
+enum CharacterRank {
+	Star3,
+	Star2,
+	Star1
+};
+
+type CharacterData = {
+	id: number;
+	rank: CharacterRank;
+	base_stat: CharacterStat;
+	is_limited: boolean;
+}
+
+const table = new RandomTable<CharacterData>();
+...
+```
