@@ -15,7 +15,7 @@
     "random"
   ],
   "author": "HideoMiyazaki",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/HideoMiyazaki/node-random-tables/issues"
   },
