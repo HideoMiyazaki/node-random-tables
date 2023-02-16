@@ -1,4 +1,4 @@
-import { RandomTable } from "../build";
+import { RandomTable } from "../lib/index";
 import { generateTableByPercent, randomMultiple } from "../src/index";
 
 type CharRank = 
