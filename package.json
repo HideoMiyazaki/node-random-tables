@@ -1,6 +1,6 @@
 {
   "name": "node-random-tables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node random tables project (for gacha server project)",
   "main": "lib/index.js",
   "scripts": {

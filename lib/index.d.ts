@@ -3,6 +3,7 @@ export type RandomTableItem<T> = {
     value: T;
 };
 export declare class RandomTable<T> {
+    header: any;
     items: Array<RandomTableItem<T>>;
     constructor(items?: Array<RandomTableItem<T>>);
     add(item: RandomTableItem<T>): void;

@@ -8,9 +8,11 @@ export type RandomTableItem<T> = {
 };
 
 export class RandomTable<T> {
+	header: any;
 	items: Array<RandomTableItem<T>>;
 
 	constructor(items?: Array<RandomTableItem<T>>) {
+		this.header = undefined;
 		this.items = items === undefined ? new Array<RandomTableItem<T>>() : items;
 	}
 
